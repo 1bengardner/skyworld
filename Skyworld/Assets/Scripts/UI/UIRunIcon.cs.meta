@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4456fc87ddf033e4bacaec7029f7039d
+timeCreated: 1504121195
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - playerUserControl: {instanceID: 0}
+  - walkSprite: {fileID: 21300012, guid: 3b0724553a2698140ad983fe6441982a, type: 3}
+  - runSprite: {fileID: 21300062, guid: 3b0724553a2698140ad983fe6441982a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

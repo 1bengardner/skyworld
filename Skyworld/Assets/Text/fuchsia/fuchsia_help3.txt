@@ -1,0 +1,2 @@
+[Inquisitive]
+Press CTRL to crouch.

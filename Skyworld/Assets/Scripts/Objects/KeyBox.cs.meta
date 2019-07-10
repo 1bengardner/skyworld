@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 83be03fa1eeb23e459d777e55a63f233
+timeCreated: 1501188012
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - unlockingItem: {instanceID: 0}
+  - unlockClip: {fileID: 8300000, guid: 5eb4bc3a35494d9438403e91d7e0bb72, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

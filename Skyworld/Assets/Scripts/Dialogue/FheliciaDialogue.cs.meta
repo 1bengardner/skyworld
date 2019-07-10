@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 29582abb755e9e046916bc9dd491ee26
+timeCreated: 1501214554
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - dialogueSound: {fileID: 8300000, guid: 93c543ee2378be04c8b1ac87731f2d90, type: 3}
+  - food: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

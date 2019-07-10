@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 68adf76f4fc0d514cbe2c64deaeb8f4f
+timeCreated: 1538879414
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - exclamationPrefab: {fileID: 1074708781846938, guid: 35aaf8f9e2af13b4aa9ec10c5a15b500,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

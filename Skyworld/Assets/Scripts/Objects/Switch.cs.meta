@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b20f557f39daf8e4fac57eb148fe1fce
+timeCreated: 1501400487
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - soundClip: {instanceID: 0}
+  - activatedObject: {instanceID: 0}
+  - smokePuffPrefab: {fileID: 1028441947139372, guid: 4e44e9735f57eec4aa85a927538a9961,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

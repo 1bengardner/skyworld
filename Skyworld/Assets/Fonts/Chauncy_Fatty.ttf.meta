@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 41e8f8e2b260a0041bb17dd35c3f9c9a
+timeCreated: 1510799191
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Chauncy Fatty
+  fontNames:
+  - Chauncy Fatty
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

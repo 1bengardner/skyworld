@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7563bae28b48147498eb6f93086d0acf
+timeCreated: 1501186274
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - breakClip: {fileID: 8300000, guid: 98db767ef60a27748bbde567a201179e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

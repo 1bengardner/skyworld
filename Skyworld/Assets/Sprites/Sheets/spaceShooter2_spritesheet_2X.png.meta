@@ -1,0 +1,3984 @@
+fileFormatVersion: 2
+guid: fe74474da0343bd48b2307648a927349
+timeCreated: 1496987447
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spaceAstronauts_001.png
+    21300002: spaceAstronauts_002.png
+    21300004: spaceAstronauts_003.png
+    21300006: spaceAstronauts_004.png
+    21300008: spaceAstronauts_005.png
+    21300010: spaceAstronauts_006.png
+    21300012: spaceAstronauts_007.png
+    21300014: spaceAstronauts_008.png
+    21300016: spaceAstronauts_009.png
+    21300018: spaceAstronauts_010.png
+    21300020: spaceAstronauts_011.png
+    21300022: spaceAstronauts_012.png
+    21300024: spaceAstronauts_013.png
+    21300026: spaceAstronauts_014.png
+    21300028: spaceAstronauts_015.png
+    21300030: spaceAstronauts_016.png
+    21300032: spaceAstronauts_017.png
+    21300034: spaceAstronauts_018.png
+    21300036: spaceBuilding_001.png
+    21300038: spaceBuilding_002.png
+    21300040: spaceBuilding_003.png
+    21300042: spaceBuilding_004.png
+    21300044: spaceBuilding_005.png
+    21300046: spaceBuilding_006.png
+    21300048: spaceBuilding_007.png
+    21300050: spaceBuilding_008.png
+    21300052: spaceBuilding_009.png
+    21300054: spaceBuilding_010.png
+    21300056: spaceBuilding_011.png
+    21300058: spaceBuilding_012.png
+    21300060: spaceBuilding_013.png
+    21300062: spaceBuilding_014.png
+    21300064: spaceBuilding_015.png
+    21300066: spaceBuilding_016.png
+    21300068: spaceBuilding_017.png
+    21300070: spaceBuilding_018.png
+    21300072: spaceBuilding_019.png
+    21300074: spaceBuilding_020.png
+    21300076: spaceBuilding_021.png
+    21300078: spaceBuilding_022.png
+    21300080: spaceBuilding_023.png
+    21300082: spaceBuilding_024.png
+    21300084: spaceBuilding_025.png
+    21300086: spaceEffects_001.png
+    21300088: spaceEffects_002.png
+    21300090: spaceEffects_003.png
+    21300092: spaceEffects_004.png
+    21300094: spaceEffects_005.png
+    21300096: spaceEffects_006.png
+    21300098: spaceEffects_007.png
+    21300100: spaceEffects_008.png
+    21300102: spaceEffects_009.png
+    21300104: spaceEffects_010.png
+    21300106: spaceEffects_011.png
+    21300108: spaceEffects_012.png
+    21300110: spaceEffects_013.png
+    21300112: spaceEffects_014.png
+    21300114: spaceEffects_015.png
+    21300116: spaceEffects_016.png
+    21300118: spaceEffects_017.png
+    21300120: spaceEffects_018.png
+    21300122: spaceMeteors_001.png
+    21300124: spaceMeteors_002.png
+    21300126: spaceMeteors_003.png
+    21300128: spaceMeteors_004.png
+    21300130: spaceMissiles_001.png
+    21300132: spaceMissiles_002.png
+    21300134: spaceMissiles_003.png
+    21300136: spaceMissiles_004.png
+    21300138: spaceMissiles_005.png
+    21300140: spaceMissiles_006.png
+    21300142: spaceMissiles_007.png
+    21300144: spaceMissiles_008.png
+    21300146: spaceMissiles_009.png
+    21300148: spaceMissiles_010.png
+    21300150: spaceMissiles_011.png
+    21300152: spaceMissiles_012.png
+    21300154: spaceMissiles_013.png
+    21300156: spaceMissiles_014.png
+    21300158: spaceMissiles_015.png
+    21300160: spaceMissiles_016.png
+    21300162: spaceMissiles_017.png
+    21300164: spaceMissiles_018.png
+    21300166: spaceMissiles_019.png
+    21300168: spaceMissiles_020.png
+    21300170: spaceMissiles_021.png
+    21300172: spaceMissiles_022.png
+    21300174: spaceMissiles_023.png
+    21300176: spaceMissiles_024.png
+    21300178: spaceMissiles_025.png
+    21300180: spaceMissiles_026.png
+    21300182: spaceMissiles_027.png
+    21300184: spaceMissiles_028.png
+    21300186: spaceMissiles_029.png
+    21300188: spaceMissiles_030.png
+    21300190: spaceMissiles_031.png
+    21300192: spaceMissiles_032.png
+    21300194: spaceMissiles_033.png
+    21300196: spaceMissiles_034.png
+    21300198: spaceMissiles_035.png
+    21300200: spaceMissiles_036.png
+    21300202: spaceMissiles_037.png
+    21300204: spaceMissiles_038.png
+    21300206: spaceMissiles_039.png
+    21300208: spaceMissiles_040.png
+    21300210: spaceParts_001.png
+    21300212: spaceParts_002.png
+    21300214: spaceParts_003.png
+    21300216: spaceParts_004.png
+    21300218: spaceParts_005.png
+    21300220: spaceParts_006.png
+    21300222: spaceParts_007.png
+    21300224: spaceParts_008.png
+    21300226: spaceParts_009.png
+    21300228: spaceParts_010.png
+    21300230: spaceParts_011.png
+    21300232: spaceParts_012.png
+    21300234: spaceParts_013.png
+    21300236: spaceParts_014.png
+    21300238: spaceParts_015.png
+    21300240: spaceParts_016.png
+    21300242: spaceParts_017.png
+    21300244: spaceParts_018.png
+    21300246: spaceParts_019.png
+    21300248: spaceParts_020.png
+    21300250: spaceParts_021.png
+    21300252: spaceParts_022.png
+    21300254: spaceParts_023.png
+    21300256: spaceParts_024.png
+    21300258: spaceParts_025.png
+    21300260: spaceParts_026.png
+    21300262: spaceParts_027.png
+    21300264: spaceParts_028.png
+    21300266: spaceParts_029.png
+    21300268: spaceParts_030.png
+    21300270: spaceParts_031.png
+    21300272: spaceParts_032.png
+    21300274: spaceParts_033.png
+    21300276: spaceParts_034.png
+    21300278: spaceParts_035.png
+    21300280: spaceParts_036.png
+    21300282: spaceParts_037.png
+    21300284: spaceParts_038.png
+    21300286: spaceParts_039.png
+    21300288: spaceParts_040.png
+    21300290: spaceParts_041.png
+    21300292: spaceParts_042.png
+    21300294: spaceParts_043.png
+    21300296: spaceParts_044.png
+    21300298: spaceParts_045.png
+    21300300: spaceParts_046.png
+    21300302: spaceParts_047.png
+    21300304: spaceParts_048.png
+    21300306: spaceParts_049.png
+    21300308: spaceParts_050.png
+    21300310: spaceParts_051.png
+    21300312: spaceParts_052.png
+    21300314: spaceParts_053.png
+    21300316: spaceParts_054.png
+    21300318: spaceParts_055.png
+    21300320: spaceParts_056.png
+    21300322: spaceParts_057.png
+    21300324: spaceParts_058.png
+    21300326: spaceParts_059.png
+    21300328: spaceParts_060.png
+    21300330: spaceParts_061.png
+    21300332: spaceParts_062.png
+    21300334: spaceParts_063.png
+    21300336: spaceParts_064.png
+    21300338: spaceParts_065.png
+    21300340: spaceParts_066.png
+    21300342: spaceParts_067.png
+    21300344: spaceParts_068.png
+    21300346: spaceParts_069.png
+    21300348: spaceParts_070.png
+    21300350: spaceParts_071.png
+    21300352: spaceParts_072.png
+    21300354: spaceParts_073.png
+    21300356: spaceParts_074.png
+    21300358: spaceParts_075.png
+    21300360: spaceParts_076.png
+    21300362: spaceParts_077.png
+    21300364: spaceParts_078.png
+    21300366: spaceParts_079.png
+    21300368: spaceParts_080.png
+    21300370: spaceParts_081.png
+    21300372: spaceParts_082.png
+    21300374: spaceParts_083.png
+    21300376: spaceParts_084.png
+    21300378: spaceParts_085.png
+    21300380: spaceParts_086.png
+    21300382: spaceParts_087.png
+    21300384: spaceParts_088.png
+    21300386: spaceParts_089.png
+    21300388: spaceParts_090.png
+    21300390: spaceParts_091.png
+    21300392: spaceParts_092.png
+    21300394: spaceParts_093.png
+    21300396: spaceParts_094.png
+    21300398: spaceParts_095.png
+    21300400: spaceParts_096.png
+    21300402: spaceParts_097.png
+    21300404: spaceParts_098.png
+    21300406: spaceRocketParts_001.png
+    21300408: spaceRocketParts_002.png
+    21300410: spaceRocketParts_003.png
+    21300412: spaceRocketParts_004.png
+    21300414: spaceRocketParts_005.png
+    21300416: spaceRocketParts_006.png
+    21300418: spaceRocketParts_007.png
+    21300420: spaceRocketParts_008.png
+    21300422: spaceRocketParts_009.png
+    21300424: spaceRocketParts_010.png
+    21300426: spaceRocketParts_011.png
+    21300428: spaceRocketParts_012.png
+    21300430: spaceRocketParts_013.png
+    21300432: spaceRocketParts_014.png
+    21300434: spaceRocketParts_015.png
+    21300436: spaceRocketParts_016.png
+    21300438: spaceRocketParts_017.png
+    21300440: spaceRocketParts_018.png
+    21300442: spaceRocketParts_019.png
+    21300444: spaceRocketParts_020.png
+    21300446: spaceRocketParts_021.png
+    21300448: spaceRocketParts_022.png
+    21300450: spaceRocketParts_023.png
+    21300452: spaceRocketParts_024.png
+    21300454: spaceRocketParts_025.png
+    21300456: spaceRocketParts_026.png
+    21300458: spaceRocketParts_027.png
+    21300460: spaceRocketParts_028.png
+    21300462: spaceRocketParts_029.png
+    21300464: spaceRocketParts_030.png
+    21300466: spaceRocketParts_031.png
+    21300468: spaceRockets_001.png
+    21300470: spaceRockets_002.png
+    21300472: spaceRockets_003.png
+    21300474: spaceRockets_004.png
+    21300476: spaceShips_001.png
+    21300478: spaceShips_002.png
+    21300480: spaceShips_003.png
+    21300482: spaceShips_004.png
+    21300484: spaceShips_005.png
+    21300486: spaceShips_006.png
+    21300488: spaceShips_007.png
+    21300490: spaceShips_008.png
+    21300492: spaceShips_009.png
+    21300494: spaceStation_001.png
+    21300496: spaceStation_002.png
+    21300498: spaceStation_003.png
+    21300500: spaceStation_004.png
+    21300502: spaceStation_005.png
+    21300504: spaceStation_006.png
+    21300506: spaceStation_007.png
+    21300508: spaceStation_008.png
+    21300510: spaceStation_009.png
+    21300512: spaceStation_010.png
+    21300514: spaceStation_011.png
+    21300516: spaceStation_012.png
+    21300518: spaceStation_013.png
+    21300520: spaceStation_014.png
+    21300522: spaceStation_015.png
+    21300524: spaceStation_016.png
+    21300526: spaceStation_017.png
+    21300528: spaceStation_018.png
+    21300530: spaceStation_019.png
+    21300532: spaceStation_020.png
+    21300534: spaceStation_021.png
+    21300536: spaceStation_022.png
+    21300538: spaceStation_023.png
+    21300540: spaceStation_024.png
+    21300542: spaceStation_025.png
+    21300544: spaceStation_026.png
+    21300546: spaceStation_027.png
+    21300548: spaceStation_028.png
+    21300550: spaceStation_029.png
+    21300552: spaceStation_030.png
+    21300554: spaceStation_031.png
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 89
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spaceAstronauts_001.png
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 1657
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_002.png
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 965
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_003.png
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1340
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_004.png
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 2046
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_005.png
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 2178
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_006.png
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1066
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_007.png
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 1890
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_008.png
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 367
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_009.png
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 220
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_010.png
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1657
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_011.png
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 851
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_012.png
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 980
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_013.png
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1469
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_014.png
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 1051
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_015.png
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1152
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_016.png
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 202
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_017.png
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 491
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceAstronauts_018.png
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 2
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_001.png
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 763
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_002.png
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 754
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_003.png
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1927
+        width: 84
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_004.png
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 79
+        width: 84
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_005.png
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1172
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_006.png
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1004
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_007.png
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 616
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_008.png
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1487
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_009.png
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1830
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_010.png
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 996
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_011.png
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2164
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_012.png
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 797
+        width: 108
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_013.png
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2045
+        width: 106
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_014.png
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 682
+        width: 335
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_015.png
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 760
+        width: 335
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_016.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 204
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_017.png
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1067
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_018.png
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2156
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_019.png
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1426
+        width: 132
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_020.png
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 142
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_021.png
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 1809
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_022.png
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 741
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_023.png
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1031
+        width: 330
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_024.png
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1555
+        width: 330
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceBuilding_025.png
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 40
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_001.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1387
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_002.png
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 717
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_003.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1511
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_004.png
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1780
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_005.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1447
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_006.png
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_007.png
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1822
+        width: 12
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_008.png
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1542
+        width: 24
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_009.png
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 2046
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_010.png
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 1794
+        width: 32
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_011.png
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1579
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_012.png
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 678
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_013.png
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2099
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_014.png
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 7
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_015.png
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 247
+        width: 87
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_016.png
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1238
+        width: 100
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_017.png
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1554
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceEffects_018.png
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 2049
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMeteors_001.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 427
+        height: 454
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMeteors_002.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 431
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMeteors_003.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1022
+        width: 440
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMeteors_004.png
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 165
+        width: 423
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_001.png
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 2126
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_002.png
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 2126
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_003.png
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 1445
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_004.png
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 217
+        width: 35
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_005.png
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 679
+        width: 35
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_006.png
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 781
+        width: 35
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_007.png
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 2046
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_008.png
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1618
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_009.png
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 883
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_010.png
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 323
+        width: 24
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_011.png
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1863
+        width: 24
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_012.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1024
+        width: 24
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_013.png
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 877
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_014.png
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 604
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_015.png
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 877
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_016.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1229
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_017.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1180
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_018.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1278
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_019.png
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 2195
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_020.png
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 2195
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_021.png
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 2057
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_022.png
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 1606
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_023.png
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 1514
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_024.png
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 871
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_025.png
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 2074
+        width: 23
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_026.png
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 1447
+        width: 23
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_027.png
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 2169
+        width: 23
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_028.png
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 1382
+        width: 17
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_029.png
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 56
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_030.png
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1124
+        width: 31
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_031.png
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 1706
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_032.png
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 125
+        width: 20
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_033.png
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_034.png
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1818
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_035.png
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1687
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_036.png
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 319
+        width: 39
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_037.png
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 34
+        width: 19
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_038.png
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 801
+        width: 21
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_039.png
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 870
+        width: 21
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceMissiles_040.png
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 939
+        width: 21
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_001.png
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 347
+        width: 98
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_002.png
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 847
+        width: 98
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_003.png
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 323
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_004.png
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1261
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_005.png
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 577
+        width: 81
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_006.png
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 717
+        width: 81
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_007.png
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2120
+        width: 73
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_008.png
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 179
+        width: 73
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_009.png
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 121
+        width: 51
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_010.png
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 407
+        width: 51
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_011.png
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 993
+        width: 71
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_012.png
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 657
+        width: 71
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_013.png
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 1667
+        width: 86
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_014.png
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 857
+        width: 86
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_015.png
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 486
+        width: 64
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_016.png
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1486
+        width: 64
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_017.png
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1151
+        width: 89
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_018.png
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1304
+        width: 89
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_019.png
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 464
+        width: 71
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_020.png
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 813
+        width: 71
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_021.png
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 183
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_022.png
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1636
+        width: 96
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_023.png
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 480
+        width: 98
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_024.png
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1402
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_025.png
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1173
+        width: 81
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_026.png
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1976
+        width: 73
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_027.png
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 574
+        width: 51
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_028.png
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1149
+        width: 71
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_029.png
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 1473
+        width: 86
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_030.png
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 822
+        width: 64
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_031.png
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 67
+        width: 89
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_032.png
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 27
+        width: 71
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_033.png
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1625
+        width: 74
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_034.png
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1361
+        width: 64
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_035.png
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 97
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_036.png
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 324
+        width: 69
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_037.png
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 252
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_038.png
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1137
+        width: 75
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_039.png
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 577
+        width: 88
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_040.png
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 437
+        width: 119
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_041.png
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1910
+        width: 103
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_042.png
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 2132
+        width: 68
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_043.png
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 728
+        width: 58
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_044.png
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 453
+        width: 86
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_045.png
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 935
+        width: 80
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_046.png
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1736
+        width: 74
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_047.png
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 54
+        width: 64
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_048.png
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1922
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_049.png
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 1743
+        width: 69
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_050.png
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 464
+        width: 81
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_051.png
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 1847
+        width: 75
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_052.png
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1020
+        width: 88
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_053.png
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 306
+        width: 119
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_054.png
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1775
+        width: 103
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_055.png
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1066
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_056.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1120
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_057.png
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1636
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_058.png
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 0
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_059.png
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 1751
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_060.png
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 347
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_061.png
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 615
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_062.png
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1477
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_063.png
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 2098
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_064.png
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 257
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_065.png
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1
+        width: 19
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_066.png
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 711
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_067.png
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_068.png
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 648
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_069.png
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 25
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_070.png
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 30
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_071.png
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1556
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_072.png
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 1984
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_073.png
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 1008
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_074.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1327
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_075.png
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 296
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_076.png
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 965
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_077.png
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 963
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_078.png
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 1385
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_079.png
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 551
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_080.png
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 419
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_081.png
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 613
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_082.png
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1642
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_083.png
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 485
+        width: 19
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_084.png
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_085.png
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 884
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_086.png
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 877
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_087.png
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 11
+        width: 116
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_088.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 108
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_089.png
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1582
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_090.png
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 14
+        width: 102
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_091.png
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 963
+        width: 22
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_092.png
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1222
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_093.png
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 733
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_094.png
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1298
+        width: 32
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_095.png
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 43
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_096.png
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 795
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_097.png
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1457
+        width: 96
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceParts_098.png
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 708
+        width: 96
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_001.png
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1305
+        width: 72
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_002.png
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1543
+        width: 79
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_003.png
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1313
+        width: 81
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_004.png
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 1971
+        width: 79
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_005.png
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 616
+        width: 74
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_006.png
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 2095
+        width: 93
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_007.png
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1052
+        width: 61
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_008.png
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1596
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_009.png
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1966
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_010.png
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1664
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_011.png
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1056
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_012.png
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 14
+        width: 137
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_013.png
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 2122
+        width: 136
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_014.png
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 910
+        width: 136
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_015.png
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1820
+        width: 136
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_016.png
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 2136
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_017.png
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 88
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_018.png
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 39
+        width: 147
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_019.png
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 602
+        width: 136
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_020.png
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 67
+        width: 162
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_021.png
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 921
+        width: 136
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_022.png
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 613
+        width: 118
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_023.png
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1708
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_024.png
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 863
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_025.png
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1305
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_026.png
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1212
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_027.png
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1752
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_028.png
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1880
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_029.png
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 2008
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_030.png
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1021
+        width: 58
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRocketParts_031.png
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1782
+        width: 58
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRockets_001.png
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 129
+        width: 244
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRockets_002.png
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 937
+        width: 313
+        height: 618
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRockets_003.png
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1634
+        width: 235
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceRockets_004.png
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 199
+        width: 271
+        height: 738
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceShips_001.png
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 380
+        width: 198
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceShips_002.png
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2048
+        width: 252
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceShips_003.png
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 30
+        width: 271
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceShips_004.png
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1340
+        width: 186
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceShips_005.png
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1163
+        width: 342
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceShips_006.png
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 216
+        width: 198
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceShips_007.png
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1796
+        width: 228
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceShips_008.png
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 717
+        width: 212
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceShips_009.png
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 568
+        width: 202
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_001.png
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1483
+        width: 168
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_002.png
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 602
+        width: 248
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_003.png
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 11
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_004.png
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 698
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_005.png
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1578
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_006.png
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 365
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_007.png
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1883
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_008.png
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 288
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_009.png
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 376
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_010.png
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 916
+        width: 32
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_011.png
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 33
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_012.png
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 41
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_013.png
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 1217
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_014.png
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 218
+        width: 112
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_015.png
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1834
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_016.png
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 717
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_017.png
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1687
+        width: 344
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_018.png
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 42
+        width: 344
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_019.png
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 838
+        width: 344
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_020.png
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 877
+        width: 248
+        height: 694
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_021.png
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 419
+        width: 32
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_022.png
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1698
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_023.png
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 1382
+        width: 40
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_024.png
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 942
+        width: 344
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_025.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 344
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_026.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1464
+        width: 552
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_027.png
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1959
+        width: 244
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_028.png
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1707
+        width: 164
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_029.png
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1571
+        width: 248
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_030.png
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1358
+        width: 104
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: spaceStation_031.png
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 12
+        width: 120
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

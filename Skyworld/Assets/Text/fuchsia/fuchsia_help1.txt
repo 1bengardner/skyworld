@@ -1,0 +1,2 @@
+[Inquisitive]
+Press SPACE to jump. Press and hold SPACE to jump high!
