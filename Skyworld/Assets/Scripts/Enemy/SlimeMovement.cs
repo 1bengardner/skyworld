@@ -12,12 +12,12 @@ public class SlimeMovement : PlatformMovement
     protected float idleTime = 0f;
     float slowTime = 0f;
     bool sliding = false;
-    float temp;
+    float originalTimeBetweenClips;
 
     protected override void Start()
     {
         base.Start();
-        temp = timeBetweenClips;
+        originalTimeBetweenClips = timeBetweenClips;
     }
 
     protected override void Move()
@@ -29,7 +29,7 @@ public class SlimeMovement : PlatformMovement
         }
         else if (!(sliding && Mathf.Abs(rb.velocity.x) > 0.05f))
         {
-            timeBetweenClips = temp;
+            timeBetweenClips = originalTimeBetweenClips;
             anim.SetBool("Sliding", false);
             sliding = false;
             // Move fast every framesBetweenMovement frames
