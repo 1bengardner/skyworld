@@ -1,4 +1,4 @@
 ﻿[System.Serializable]
-public class SwitchRecord : StateRecord {
+public class ButtonRecord : StateRecord {
     public bool pressed;
 }

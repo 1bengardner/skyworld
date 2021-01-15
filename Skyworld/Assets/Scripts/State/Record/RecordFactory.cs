@@ -24,20 +24,15 @@ static class RecordFactory {
         {
             return new ItemBoxRecord();
         }
-
-        else if (t == typeof(Lever))
-        {
-            return new LeverRecord();
-        }
-
+        
         else if (t == typeof(KeyBox))
         {
             return new KeyBoxRecord();
         }
 
-        else if (t == typeof(Switch))
+        else if (t == typeof(Switch) || t == typeof(Lever) || t == typeof(CostLever))
         {
-            return new SwitchRecord();
+            return new ButtonRecord();
         }
 
         else if (t == typeof(QuestDialogue))
@@ -59,6 +54,8 @@ static class RecordFactory {
         {
             return new CutsceneTriggerRecord();
         }
+
+        // WIP
 
         else
         {

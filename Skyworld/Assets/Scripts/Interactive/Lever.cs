@@ -35,19 +35,19 @@ public class Lever : Switch, ISavable {
 
     StateRecord ISavable.GetRecord()
     {
-        LeverRecord record = (LeverRecord)RecordFactory.Get(this);
-        record.pulled = pulled;
+        ButtonRecord record = (ButtonRecord)RecordFactory.Get(this);
+        record.pressed = pulled;
         return record;
     }
 
     void ISavable.SetData(StateRecord loaded)
     {
-        LeverRecord record = (LeverRecord)loaded;
-        if (pulled != record.pulled)
+        ButtonRecord record = (ButtonRecord)loaded;
+        if (pulled != record.pressed)
         {
             SetSwitch(true);
             SetObjects(true);
         }
-        pulled = record.pulled;
+        pulled = record.pressed;
     }
 }

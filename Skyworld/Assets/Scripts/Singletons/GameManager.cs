@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine.UI;
 using UnityEngine;
+using System;
 
 public class GameManager : MonoBehaviour {
 
@@ -150,7 +151,7 @@ public class GameManager : MonoBehaviour {
         fade = fade ?? Color.black;
 
         // Add zone to seen zones
-        PlayerPrefs.SetInt(zoneToShow.id, 1);
+        PlayerPrefs.SetInt(Zone.PrefsKey, Math.Max(PlayerPrefs.GetInt(Zone.PrefsKey, -1), zoneToShow.rank));
 
         paused = true;
         if (TimerManager.Instance.on)

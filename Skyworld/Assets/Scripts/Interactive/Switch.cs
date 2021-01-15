@@ -82,14 +82,14 @@ public class Switch : MonoBehaviour, ISavable
 
     StateRecord ISavable.GetRecord()
     {
-        SwitchRecord record = (SwitchRecord)RecordFactory.Get(this);
+        ButtonRecord record = (ButtonRecord)RecordFactory.Get(this);
         record.pressed = gameObject.GetComponent<CircleCollider2D>().enabled;
         return record;
     }
 
     void ISavable.SetData(StateRecord loaded)
     {
-        SwitchRecord record = (SwitchRecord)loaded;
+        ButtonRecord record = (ButtonRecord)loaded;
         if (record.pressed == gameObject.GetComponent<CircleCollider2D>().enabled)
         {
             SetSwitch(record.pressed);

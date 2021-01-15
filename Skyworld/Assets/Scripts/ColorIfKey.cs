@@ -9,7 +9,7 @@ public class ColorIfKey : MonoBehaviour {
 
     void Start()
     {
-        if (!PlayerPrefs.HasKey(prefKeyZone.id))
+        if (PlayerPrefs.GetInt(Zone.PrefsKey, -1) < prefKeyZone.rank)
         {
             GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, missingKeyAlpha);
         }

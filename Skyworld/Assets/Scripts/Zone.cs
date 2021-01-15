@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Zone : MonoBehaviour {
-    [HideInInspector]
-    public string id
+public class Zone : MonoBehaviour
+{
+    public const string PrefsKey = "Zone";
+    [SerializeField]
+    private int _rank;
+    public int rank
     {
         get
         {
-            return name;
+            return _rank;
         }
     }
     public Color color;

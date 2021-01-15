@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,6 +22,28 @@ public class PlayerCollecting : MonoBehaviour, ISavable {
         {
             OnAddOrRemoveMoney();
         }
+        OnAddOrRemoveItem += delegate (bool add, ItemData item)
+        {
+            // If special, add the item as a child of this GameObject
+            foreach (GameManager.SpecialItem specialItem in GameManager.Instance.specialItems)
+            {
+                if (!add) return;
+                if (item.Equals((ItemData)specialItem.item))
+                {
+                    var newItem = Instantiate(specialItem.itemPrefab, transform, false);
+                    ItemAction DestroyNewItemOnRemoval = null;
+                    DestroyNewItemOnRemoval = delegate (bool a, ItemData i)
+                    {
+                        if (!a && i == item)
+                        {
+                            Destroy(newItem);
+                            OnAddOrRemoveItem -= DestroyNewItemOnRemoval;
+                        }
+                    };
+                    OnAddOrRemoveItem += DestroyNewItemOnRemoval;
+                }
+            }
+        };
     }
 
     public void CollectItem(ItemCollectible item)
@@ -31,19 +54,10 @@ public class PlayerCollecting : MonoBehaviour, ISavable {
     public void CollectItem(ItemData item)
     {
         items.Add(item);
-        // If special, add the item as a child of this GameObject
-        for (int i = 0; i < GameManager.Instance.specialItems.Length; i++)
-        {
-            if (item.Equals((ItemData)GameManager.Instance.specialItems[i].item))
-            {
-                Instantiate(GameManager.Instance.specialItems[i].itemPrefab, transform, false);
-            }
-        }
         if (OnAddOrRemoveItem != null)
         {
             OnAddOrRemoveItem(true, item);
         }
-
     }
 	
 	public void CollectMoney(int quantity)
@@ -99,6 +113,12 @@ public class PlayerCollecting : MonoBehaviour, ISavable {
     void ISavable.SetData(StateRecord loaded)
     {
         PlayerCollectingRecord record = (PlayerCollectingRecord)loaded;
+        
+        if (OnAddOrRemoveItem != null)
+        {
+            items.ForEach(item => OnAddOrRemoveItem(false, item));
+        }
+
         money = record.money;
         items = new List<ItemData>(record.items);
 
@@ -108,7 +128,7 @@ public class PlayerCollecting : MonoBehaviour, ISavable {
         }
         if (OnAddOrRemoveItem != null)
         {
-            OnAddOrRemoveItem(true, null);
+            items.ForEach(item => OnAddOrRemoveItem(true, item));
         }
     }
 }
