@@ -22,6 +22,8 @@ public abstract class NPCDialogue : MonoBehaviour {
     protected AudioSource dialogueSource;
     protected Animator anim;
     protected Collider2D player;
+    
+    private bool celebrating;
 
     void Start()
     {
@@ -97,6 +99,11 @@ public abstract class NPCDialogue : MonoBehaviour {
                 endDialogueHandler = null;
             }
         }
+        if (celebrating)
+        {
+            celebrating = false;
+            GameManager.Instance.backgroundMusic.SwapClip(null);
+        }
     }
 
     protected virtual void FirstEncounter(Collider2D other)
@@ -104,6 +111,12 @@ public abstract class NPCDialogue : MonoBehaviour {
         string dialogue = dialogues[0].text;
         Talk(dialogue);
         ZoomIn();
+    }
+
+    protected void Congratulate()
+    {
+        celebrating = true;
+        GameManager.Instance.backgroundMusic.SwapClip(GameManager.Instance.backgroundMusic.clipCelebrate);
     }
 
     // Subclasses may implement their own events when player enters trigger after first time

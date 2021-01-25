@@ -56,6 +56,7 @@ public class QuestDialogue : NPCDialogue, ISavable
         // Introduction complete & found items
         if (playerHasItems)
         {
+            Congratulate();
             string dialogue = dialogues[1].text;
             Talk(dialogue);
             ZoomIn();

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: 8892b1db59748a140a4b61369d234b1e
-timeCreated: 1500438048
+timeCreated: 1611553800
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - clipHurry: {fileID: 8300000, guid: 0c5cec0ddb57a5e48bc387add7bb2ce9, type: 3}
+  - clipCelebrate: {fileID: 8300000, guid: 5567ce612ee6a844ba63ea1156589165, type: 3}
+  - audioSource: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

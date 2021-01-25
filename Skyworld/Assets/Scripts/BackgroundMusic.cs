@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class BackgroundMusic : MonoBehaviour {
 
     public AudioClip clipHurry;
+    public AudioClip clipCelebrate;
     public delegate void MuteAction();
     public event MuteAction OnToggleMute;
     [HideInInspector]
