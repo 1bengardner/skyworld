@@ -49,13 +49,8 @@ public abstract class NPCDialogue : MonoBehaviour {
             dialogue = dialogue.Remove(firstMatch.Index, firstMatch.Length).Trim();
         }
 
-        // Store all remaining tags as matches
-        MatchCollection matches = Regex.Matches(dialogue, "\\[.+\\]");
-
-        foreach (Match match in matches)
-        {
-            dialogue = dialogue.Replace(match.Value, StringTagConverter.ConvertTag(match.Value));
-        }
+        // Convert all remaining tags
+        dialogue = StringTagConverter.ConvertString(dialogue);
 
         return emotion;
     }

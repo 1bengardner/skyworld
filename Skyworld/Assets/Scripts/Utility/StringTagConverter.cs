@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 // A utility
@@ -20,5 +21,17 @@ public static class StringTagConverter
                 Debug.LogWarning("[NPCDialogue] Dialogue tag does not exist.");
                 return "[Unknown Tag]";
         }
+    }
+
+    public static string ConvertString(string s)
+    {
+        MatchCollection matches = Regex.Matches(s, "\\[.+\\]");
+
+        foreach (Match match in matches)
+        {
+            s = s.Replace(match.Value, ConvertTag(match.Value));
+        }
+
+        return s;
     }
 }

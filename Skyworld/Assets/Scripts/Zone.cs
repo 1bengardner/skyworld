@@ -6,6 +6,15 @@ public class Zone : MonoBehaviour
 {
     public const string PrefsKey = "Zone";
     [SerializeField]
+    private string _name;
+    public new string name
+    {
+        get
+        {
+            return _name;
+        }
+    }
+    [SerializeField]
     private int _rank;
     public int rank
     {

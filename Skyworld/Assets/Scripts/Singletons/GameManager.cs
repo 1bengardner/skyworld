@@ -51,6 +51,8 @@ public class GameManager : MonoBehaviour {
     public Zone currentZone;
     [SerializeField]
     Zone respawnZone;
+    [SerializeField]
+    UIZoneName zoneText;
     ScreenOverlay screenOverlay;
     Animator pauseMenu;
 
@@ -177,6 +179,11 @@ public class GameManager : MonoBehaviour {
         {
             playerToCenter.position = zoneToShow.spawnPoint.position + 0.5f * Vector3.up;
             Camera.main.GetComponent<Camera2DFollow>().SnapTo(playerToCenter.transform.position);
+        }
+        // Show Zone Text
+        if (zoneToShow.name != currentZone.name)
+        {
+            zoneText.infoString = StringTagConverter.ConvertString(zoneToShow.name);
         }
         currentZone = zoneToShow;
         Camera.main.backgroundColor = zoneToShow.color;
