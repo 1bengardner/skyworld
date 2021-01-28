@@ -108,10 +108,10 @@ public abstract class NPCDialogue : MonoBehaviour {
         ZoomIn();
     }
 
-    protected void Congratulate()
+    protected void Congratulate(AudioClip congratulationSound = null)
     {
         celebrating = true;
-        GameManager.Instance.backgroundMusic.SwapClip(GameManager.Instance.backgroundMusic.clipCelebrate);
+        GameManager.Instance.backgroundMusic.SwapClip(congratulationSound ?? GameManager.Instance.backgroundMusic.clipCelebrate);
     }
 
     // Subclasses may implement their own events when player enters trigger after first time

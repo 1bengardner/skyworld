@@ -8,6 +8,8 @@ public class FheliciaDialogue : NPCDialogue
     ItemCollectible itemReward;
     [SerializeField]
     ItemCollectible itemNeeded;
+    [SerializeField]
+    AudioClip celebrateSound;
     bool gotItem = false;
 
     void Update()
@@ -43,6 +45,7 @@ public class FheliciaDialogue : NPCDialogue
         // Introduction complete & has item
         if (player.GetComponent<PlayerCollecting>().HasItem(itemNeeded))
         {
+            Congratulate(celebrateSound);
             string dialogue = dialogues[1].text;
             Talk(dialogue);
             ZoomIn();
