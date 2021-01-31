@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: 20a88af7938cdf6418722043e49be08c
-timeCreated: 1502831125
+timeCreated: 1611843684
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - soundClip: {fileID: 8300000, guid: 8c0a1bae88d728f4ca52bb08b6fb5e55, type: 3}
+  - smokePuffPrefab: {fileID: 1028441947139372, guid: 4e44e9735f57eec4aa85a927538a9961,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
