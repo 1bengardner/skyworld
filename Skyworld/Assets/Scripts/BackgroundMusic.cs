@@ -131,9 +131,9 @@ public class BackgroundMusic : MonoBehaviour {
         }
     }
 
-    public void QuietDown(bool yes)
+    public void QuietDown(bool yes, float volume = 0.6f)
     {
-        float quietVolume = defaultVolume / 2f;
+        float quietVolume = defaultVolume * volume;
         if (yes)
         {
             StartCoroutine(FadeTo(quietVolume, 0.25f));
