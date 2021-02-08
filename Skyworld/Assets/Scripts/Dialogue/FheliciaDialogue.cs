@@ -10,7 +10,16 @@ public class FheliciaDialogue : NPCDialogue
     ItemCollectible itemNeeded;
     [SerializeField]
     AudioClip celebrateSound;
-    bool gotItem = false;
+    [SerializeField]
+    FheliciaDialogue previousFhelicia;
+    bool gotItem;
+    
+    void OnEnable()
+    {
+        bool visible = !(gotItem || previousFhelicia && !previousFhelicia.gotItem);
+        GetComponent<SpriteRenderer>().enabled = visible;
+        GetComponent<Collider2D>().enabled = visible;
+    }
 
     void Update()
     {
@@ -28,7 +37,7 @@ public class FheliciaDialogue : NPCDialogue
                     }
                     else
                     {
-                        dialogue = dialogues[0].text;
+                        dialogue = dialogues[1].text;
                     }
                     Talk(dialogue);
                 }
@@ -46,7 +55,7 @@ public class FheliciaDialogue : NPCDialogue
         if (player.GetComponent<PlayerCollecting>().HasItem(itemNeeded))
         {
             Congratulate(celebrateSound);
-            string dialogue = dialogues[1].text;
+            string dialogue = dialogues[2].text;
             Talk(dialogue);
             ZoomIn();
             player.GetComponent<PlayerCollecting>().RemoveItem(itemNeeded);

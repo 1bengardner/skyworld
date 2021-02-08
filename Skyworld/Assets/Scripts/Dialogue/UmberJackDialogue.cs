@@ -98,6 +98,7 @@ public class UmberJackDialogue : NPCDialogue, ISavable
     {
         canBeTalkedTo = false;
         anim.SetTrigger("Got Axe");
+        GetComponent<Collider2D>().enabled = false;
     }
 
     void CutTree()
@@ -121,6 +122,7 @@ public class UmberJackDialogue : NPCDialogue, ISavable
         item.transform.position = transform.position + Vector3.up;
         item.GetComponent<Rigidbody2D>().AddForce(150f * Vector2.up);
         item.GetComponent<Rigidbody2D>().AddTorque(30f);
+        GetComponent<Collider2D>().enabled = false;
     }
 
     void GotPencil()

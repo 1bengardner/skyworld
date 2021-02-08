@@ -87,17 +87,16 @@ public abstract class NPCDialogue : MonoBehaviour {
             Emotion emotion = Emotion.Neutral;
             anim.SetTrigger(emotion.ToString());
             DialogueManager.Instance.EndDialogue();
-            
+            if (celebrating)
+            {
+                celebrating = false;
+                GameManager.Instance.backgroundMusic.SwapClip(null);
+            }
             if (endDialogueHandler != null)
             {
                 endDialogueHandler();
                 endDialogueHandler = null;
             }
-        }
-        if (celebrating)
-        {
-            celebrating = false;
-            GameManager.Instance.backgroundMusic.SwapClip(null);
         }
     }
 

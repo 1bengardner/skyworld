@@ -14,6 +14,7 @@ public class SpriteTiler : MonoBehaviour {
             Debug.LogWarning("No SpriteRenderer assigned to SpriteTiler.");
             return;
         }
+        templateTile.enabled = false;
         for (int i = 0; i < transform.localScale.x; i++)
         {
             for (int j = 0; j < transform.localScale.y; j++)

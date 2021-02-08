@@ -23,9 +23,9 @@ public class TimedSwitch : Switch {
 
     protected override IEnumerator Activate(AudioSource clipSource)
     {
-        yield return StartCoroutine(base.Activate(clipSource));
         SetMusic(true);
         StartWaiting();
+        yield return base.Activate(clipSource);
     }
 
     protected virtual void StartWaiting()
