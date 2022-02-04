@@ -161,11 +161,7 @@ public abstract class NPCDialogue : MonoBehaviour {
         Camera.main.GetComponent<Camera2DFollow>().PushTarget(transform);
         Camera.main.GetComponent<ZoomEffect>().Activate();
         zoomed = true;
-        if (celebrating)
-        {
-            GameManager.Instance.backgroundMusic.QuietDown(true, 0.8f);
-        }
-        else
+        if (!celebrating)
         {
             GameManager.Instance.backgroundMusic.QuietDown(true);
         }
