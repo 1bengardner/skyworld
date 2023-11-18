@@ -13,6 +13,7 @@ public class UmberJackDialogue : NPCDialogue, ISavable
     [SerializeField] Collider2D forestWarp;
     [SerializeField] Collider2D dungeonWarp;
     [SerializeField] Animator tree;
+    [SerializeField] AudioClip celebrateSound;
     bool gotAxe = false;
     bool gotFlashlight = false;
     bool gavePencil = false;
@@ -62,7 +63,7 @@ public class UmberJackDialogue : NPCDialogue, ISavable
         // Introduction complete & axe found
         if (zone == Area.Grass && player.GetComponent<PlayerCollecting>().HasItem(axe))
         {
-            Congratulate();
+            Congratulate(celebrateSound);
             string dialogue = dialogues[1].text;
             Talk(dialogue);
             ZoomIn();
@@ -73,7 +74,7 @@ public class UmberJackDialogue : NPCDialogue, ISavable
         }
         else if (zone == Area.Snow && player.GetComponent<PlayerCollecting>().HasItem(flashlight))
         {
-            Congratulate();
+            Congratulate(celebrateSound);
             string dialogue = dialogues[1].text;
             Talk(dialogue);
             ZoomIn();
@@ -84,7 +85,7 @@ public class UmberJackDialogue : NPCDialogue, ISavable
         }
         else if (zone == Area.Desert && !gavePencil)
         {
-            Congratulate();
+            Congratulate(celebrateSound);
             string dialogue = dialogues[0].text;
             Talk(dialogue);
             ZoomIn();

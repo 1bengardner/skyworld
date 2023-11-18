@@ -19,6 +19,7 @@ public class UmberJackDialogueEditor : Editor {
 
         EditorGUILayout.PropertyField(serializedObject.FindProperty("dialogues"), true);
         EditorGUILayout.PropertyField(serializedObject.FindProperty("dialogueSound"), true);
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("celebrateSound"), true);
 
         using (var group = new EditorGUILayout.FadeGroupScope(script.zone == UmberJackDialogue.Area.Grass ? 1 : 0))
         {
