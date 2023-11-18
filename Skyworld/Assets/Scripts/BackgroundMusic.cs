@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,30 +8,63 @@ public class BackgroundMusic : MonoBehaviour {
     public AudioClip clipCelebrate;
     public delegate void MuteAction();
     public event MuteAction OnToggleMute;
+    public Slider musicVolumeSlider;
     [HideInInspector]
     public AudioSource audioSource;
-    // Real volume
-    public float volume
+    float universalVolume;
+    float _mainVolume;
+    public float mainVolume
     {
-        // Change the default volume
         set
         {
-            defaultVolume = value;
-            ChangeVolume(defaultVolume);
+            _mainVolume = value;
+            UpdateVolume();
+            PlayerPrefs.SetFloat("Music volume", value);
+        }
+        private get
+        {
+            return _mainVolume;
+        }
+    }
+    float _relativeVolume;
+    float relativeVolume
+    {
+        set
+        {
+            _relativeVolume = value;
+            UpdateVolume();
         }
         get
         {
-            return audioSource.volume;
+            return _relativeVolume;
         }
     }
+    float _sfxVolume;
+    public float sfxVolume
+    {
+        set
+        {
+            _sfxVolume = value;
+            UpdateVolume();
+        }
+        private get
+        {
+            return _sfxVolume;
+        }
+    }
+    bool _muted;
     public bool muted
     {
+        private set
+        {
+            _muted = value;
+            UpdateVolume();
+        }
         get
         {
             return _muted;
         }
     }
-    bool _muted = false;
     struct PausedClip
     {
         public PausedClip(AudioClip clip, float secondsIntoClip)
@@ -44,15 +76,16 @@ public class BackgroundMusic : MonoBehaviour {
         public float secondsIntoClip;
     }
     PausedClip lastSwappedClip; // for SwapClip
-    float defaultVolume;
-    // Volume that audio would be playing at if it were unmuted
-    float _volume;
     bool changingZones;
 
     void Awake() {
+        var initialVolume = musicVolumeSlider.value;
         audioSource = GetComponent<AudioSource>();
-        defaultVolume = audioSource.volume;
-        _volume = defaultVolume;
+        universalVolume = audioSource.volume;
+        _mainVolume = initialVolume;
+        universalVolume /= initialVolume;
+        relativeVolume = 1f;
+        sfxVolume = 1f;
     }
 
     void Start() {
@@ -67,22 +100,21 @@ public class BackgroundMusic : MonoBehaviour {
             audioSource.Play();
         }
     }
-
-    // Momentarily change the volume from default
-    void ChangeVolume(float volume)
+    
+    void UpdateVolume()
     {
-        audioSource.volume = _muted ? 0f : volume;
-        _volume = volume;
+        var volume = universalVolume * mainVolume * relativeVolume / sfxVolume;
+        audioSource.volume = muted ? 0f : volume;
     }
 
     IEnumerator FadeTo(float toVolume, float seconds)
     {
-        float fromVolume = volume;
+        float fromVolume = relativeVolume;
         float elapsed = 0f;
         while (elapsed <= seconds)
         {
             elapsed += Time.deltaTime;
-            ChangeVolume(Mathf.Lerp(fromVolume, toVolume, elapsed / seconds));
+            relativeVolume = Mathf.Lerp(fromVolume, toVolume, elapsed / seconds);
             yield return null;
         }
     }
@@ -96,7 +128,7 @@ public class BackgroundMusic : MonoBehaviour {
         {
             SwapClip(newClip, true);
         }
-        yield return StartCoroutine(FadeTo(defaultVolume, seconds / 2f));
+        yield return StartCoroutine(FadeTo(1f, seconds / 2f));
         changingZones = false;
     }
 
@@ -123,24 +155,22 @@ public class BackgroundMusic : MonoBehaviour {
     
     public void ToggleMute()
     {
-        _muted = !_muted;
-        ChangeVolume(_volume);
+        muted = !muted;
         if (OnToggleMute != null)
         {
             OnToggleMute();
         }
     }
 
-    public void QuietDown(bool yes, float volume = 0.6f)
+    public void QuietDown(bool yes, float quietVolume = 0.6f)
     {
-        float quietVolume = defaultVolume * volume;
         if (yes)
         {
             StartCoroutine(FadeTo(quietVolume, 0.25f));
         }
         else
         {
-            StartCoroutine(FadeTo(defaultVolume, 0.5f));
+            StartCoroutine(FadeTo(1f, 0.5f));
         }
     }
 }

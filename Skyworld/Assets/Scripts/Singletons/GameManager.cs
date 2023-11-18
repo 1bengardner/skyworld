@@ -13,6 +13,21 @@ public class GameManager : MonoBehaviour {
     }
     public SpecialItem[] specialItems;
 
+    float _listenerVolume;
+    public float listenerVolume
+    {
+        set
+        {
+            _listenerVolume = value;
+            AudioListener.volume = backgroundMusic.muted ? 0f : Mathf.Clamp(1.5f - value, 0.5f, 1);
+            backgroundMusic.sfxVolume = AudioListener.volume;
+            PlayerPrefs.SetFloat("SFX volume", AudioListener.volume);
+        }
+        private get
+        {
+            return _listenerVolume;
+        }
+    }
     // Return true if game is paused. Set to true to pause the game.
     public bool paused
     {
@@ -53,6 +68,8 @@ public class GameManager : MonoBehaviour {
     Zone respawnZone;
     [SerializeField]
     UIZoneName zoneText;
+    [SerializeField]
+    Slider sfxVolumeSlider;
     ScreenOverlay screenOverlay;
     Animator pauseMenu;
 
@@ -88,6 +105,8 @@ public class GameManager : MonoBehaviour {
     {
         screenOverlay = GameObject.FindGameObjectWithTag("ScreenFader").GetComponent<ScreenOverlay>();
         backgroundMusic = GameObject.FindGameObjectWithTag("BackgroundMusic").GetComponent<BackgroundMusic>();
+        backgroundMusic.OnToggleMute += () => PlayerPrefs.SetInt("Mute", backgroundMusic.muted ? 1 : 0);
+        backgroundMusic.OnToggleMute += () => listenerVolume = _listenerVolume;
         pauseMenu = GameObject.FindGameObjectWithTag("PauseMenu").GetComponent<Animator>();
         currentZone = FindObjectOfType<Zone>();
         if (currentZone != null)
@@ -97,6 +116,14 @@ public class GameManager : MonoBehaviour {
             {
                 respawnZone = currentZone;
             }
+        }
+        if (PlayerPrefs.HasKey("Music volume"))
+        {
+            backgroundMusic.musicVolumeSlider.value = PlayerPrefs.GetFloat("Music volume");
+        }
+        if (PlayerPrefs.HasKey("SFX volume"))
+        {
+            sfxVolumeSlider.value = 1.5f - PlayerPrefs.GetFloat("SFX volume");
         }
         if (PlayerPrefs.GetInt("Mute") == 1 && !backgroundMusic.muted)
         {
@@ -113,7 +140,6 @@ public class GameManager : MonoBehaviour {
         if (toggleKeysEnabled && Input.GetButtonDown("Mute"))
         {
             backgroundMusic.ToggleMute();
-            PlayerPrefs.SetInt("Mute", backgroundMusic.muted ? 1 : 0);
         }
     }
 

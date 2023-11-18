@@ -23,7 +23,7 @@ public class UIMuteText : MonoBehaviour {
         {
             StopCoroutine(coroutine);
         }
-        coroutine = GetComponent<TextPeeker>().FlashText(muteText, backgroundMusic.muted ? "Music off" : "Music on");
+        coroutine = GetComponent<TextPeeker>().FlashText(muteText, backgroundMusic.muted ? "Sound off" : "Sound on!");
         StartCoroutine(coroutine);
     }
 }

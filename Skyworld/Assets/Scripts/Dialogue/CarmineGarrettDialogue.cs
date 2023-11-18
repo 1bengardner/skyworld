@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CarmineGarrettDialogue : NPCDialogue
 {
@@ -12,6 +10,8 @@ public class CarmineGarrettDialogue : NPCDialogue
     PlayerCollecting playerCollecting;
     [SerializeField]
     int purchasePrice;
+    [SerializeField]
+    AudioClip celebrateSound;
     bool playerHasEnoughMoney;
     int previousDialogue = 0;
 
@@ -26,6 +26,7 @@ public class CarmineGarrettDialogue : NPCDialogue
         {
             if (item.Equals((ItemData)GameManager.Instance.specialItems[i].item))
             {
+                Congratulate(celebrateSound);
                 string dialogue = specialItemDialogues[i].text;
                 Talk(dialogue);
                 if (!zoomed)
@@ -74,6 +75,7 @@ public class CarmineGarrettDialogue : NPCDialogue
         {
             if (!talking)
             {
+                Congratulate(celebrateSound);
                 string dialogue = dialogues[2].text;
                 Talk(dialogue);
                 ZoomIn();
