@@ -96,7 +96,8 @@ public class BackgroundMusic : MonoBehaviour {
         }
         else
         {
-            audioSource.clip = FindObjectOfType<Zone>().music;
+            audioSource.clip = zone.music;
+            audioSource.time = zone.startMusicAtSeconds;
             audioSource.Play();
         }
     }
@@ -120,15 +121,15 @@ public class BackgroundMusic : MonoBehaviour {
     }
 
     // Over time, fade the audio out and back to default, optionally changing clips.
-    public IEnumerator FadeOutAndIn(AudioClip newClip = null, float seconds = 2f)
+    public IEnumerator FadeOutAndIn(AudioClip newClip = null, float fadeSeconds = 2f, float startAtSeconds = 0f)
     {
         changingZones = true;
-        yield return StartCoroutine(FadeTo(0f, seconds / 2f));
+        yield return StartCoroutine(FadeTo(0f, fadeSeconds / 2f));
         if (newClip != null)
         {
-            SwapClip(newClip, true);
+            SwapClip(newClip, true, startAtSeconds);
         }
-        yield return StartCoroutine(FadeTo(1f, seconds / 2f));
+        yield return StartCoroutine(FadeTo(1f, fadeSeconds / 2f));
         changingZones = false;
     }
 
@@ -136,12 +137,12 @@ public class BackgroundMusic : MonoBehaviour {
     Swap the currently playing clip for another and begin playing immediately.
     Play last swapped clip if none specified.
     */
-    public void SwapClip(AudioClip newClip = null, bool force = false)
+    public void SwapClip(AudioClip newClip = null, bool force = false, float startTimeInSeconds = 0f)
     {
         // Prevent switches from triggering a clip swap after being disabled during zone swap
         if ((changingZones && !force) || newClip == audioSource.clip)
             return;
-        float newTime = 0f;
+        float newTime = startTimeInSeconds;
         if (newClip == null)
         {
             newClip = lastSwappedClip.clip;

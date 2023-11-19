@@ -25,6 +25,7 @@ public class Zone : MonoBehaviour
     }
     public Color color;
     public AudioClip music;
+    public float startMusicAtSeconds = 0f;
     public Transform spawnPoint;
 
     void Awake()

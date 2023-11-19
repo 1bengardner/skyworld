@@ -188,7 +188,7 @@ public class GameManager : MonoBehaviour {
         }
         if (zoneToShow.music != null && zoneToShow.music != backgroundMusic.audioSource.clip)
         {
-            StartCoroutine(backgroundMusic.FadeOutAndIn(zoneToShow.music, transitionSeconds + pauseSeconds));
+            StartCoroutine(backgroundMusic.FadeOutAndIn(zoneToShow.music, transitionSeconds + pauseSeconds, zoneToShow.startMusicAtSeconds));
         }
         yield return StartCoroutine(screenOverlay.Fade(fade.GetValueOrDefault(), transitionSeconds / 2f));
         // Pause on old scene before changing scenes
